@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqsxvw7wy0h3y"]
+
+[ext_resource type="PackedScene" uid="uid://burssn1dl7a0b" path="res://map.tscn" id="1_yjml1"]
+[ext_resource type="PackedScene" uid="uid://cmhtvlnp0hbpb" path="res://Player.tscn" id="2_rphv6"]
+
+[node name="main" type="Node"]
+
+[node name="Map" parent="." instance=ExtResource("1_yjml1")]
+
+[node name="Player" parent="." instance=ExtResource("2_rphv6")]
+position = Vector2(121, 120)
+collision_layer = 0
+collision_mask = 0
